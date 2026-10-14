@@ -1,0 +1,19 @@
+{
+  "name": "שף בכיס",
+  "short_name": "שף בכיס",
+  "description": "מתכונים ביתיים, מצב בישול עם טיימר ורשימת קניות.",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "./#/home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F6FAF7",
+  "theme_color": "#2F7D64",
+  "categories": ["food", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

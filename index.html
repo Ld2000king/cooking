@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>שף בכיס</title>
+  <meta name="description" content="שף בכיס – מתכונים ביתיים, מצב בישול עם טיימר ורשימת קניות.">
+  <meta name="theme-color" content="#F6FAF7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0F1714" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="שף בכיס">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="shell">
+    <!-- main app (tabs + pushed pages) -->
+    <div id="app" aria-live="polite">
+      <main id="view"></main>
+      <nav id="tabbar" class="tabbar" aria-label="ניווט ראשי"></nav>
+    </div>
+    <!-- overlays -->
+    <div id="sheets"></div>
+    <div id="auth"></div>
+    <div id="splash"></div>
+    <div id="toasts" role="status" aria-live="polite"></div>
+  </div>
+  <noscript>כדי להשתמש בשף בכיס צריך להפעיל JavaScript.</noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
